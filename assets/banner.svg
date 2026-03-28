@@ -1,0 +1,98 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34d399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05">
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(80,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(160,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(240,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(320,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(400,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(480,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(560,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(640,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(720,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(800,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(880,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(960,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(1040,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(1120,0)" />
+    <line x1="0" y1="0" x2="0" y2="640" stroke="white" stroke-width="1" transform="translate(1200,0)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,80)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,160)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,240)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,320)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,400)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,480)" />
+    <line x1="0" y1="0" x2="1280" y2="0" stroke="white" stroke-width="1" transform="translate(0,560)" />
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="180" stroke="#6366f1" stroke-width="1" fill="none" opacity="0.08"/>
+  <circle cx="1080" cy="490" r="220" stroke="#8b5cf6" stroke-width="1" fill="none" opacity="0.08"/>
+  <circle cx="900" cy="100" r="120" stroke="#10b981" stroke-width="1" fill="none" opacity="0.06"/>
+
+  <!-- Shopping cart icon -->
+  <g transform="translate(540, 140)" opacity="0.9">
+    <rect x="0" y="0" width="200" height="200" rx="24" fill="url(#accent)" opacity="0.15"/>
+    <g transform="translate(50, 45)" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Cart body -->
+      <path d="M0 10 L15 10 L30 80 L90 80 L100 30 L25 30"/>
+      <!-- Wheels -->
+      <circle cx="40" cy="100" r="8" fill="#8b5cf6"/>
+      <circle cx="80" cy="100" r="8" fill="#8b5cf6"/>
+      <!-- Magnifying glass overlay -->
+      <circle cx="72" cy="20" r="18" stroke="#10b981" stroke-width="5"/>
+      <line x1="84" y1="32" x2="98" y2="46" stroke="#10b981" stroke-width="5"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="640" y="400" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="white" letter-spacing="-1">
+    MCP Merchant Scout
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640" y="450" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" fill="#a5b4fc" opacity="0.9">
+    Search and compare products across UCP merchants from Claude
+  </text>
+
+  <!-- Tags -->
+  <g transform="translate(640, 500)" text-anchor="middle">
+    <!-- MCP tag -->
+    <rect x="-235" y="-18" width="80" height="36" rx="18" fill="#6366f1" opacity="0.2"/>
+    <text x="-195" y="7" font-family="system-ui, monospace" font-size="14" font-weight="600" fill="#a5b4fc">MCP</text>
+
+    <!-- UCP tag -->
+    <rect x="-135" y="-18" width="78" height="36" rx="18" fill="#10b981" opacity="0.2"/>
+    <text x="-96" y="7" font-family="system-ui, monospace" font-size="14" font-weight="600" fill="#6ee7b7">UCP</text>
+
+    <!-- Shopify tag -->
+    <rect x="-37" y="-18" width="100" height="36" rx="18" fill="#6366f1" opacity="0.2"/>
+    <text x="13" y="7" font-family="system-ui, monospace" font-size="14" font-weight="600" fill="#a5b4fc">Shopify</text>
+
+    <!-- TypeScript tag -->
+    <rect x="83" y="-18" width="120" height="36" rx="18" fill="#10b981" opacity="0.2"/>
+    <text x="143" y="7" font-family="system-ui, monospace" font-size="14" font-weight="600" fill="#6ee7b7">TypeScript</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="630" width="1280" height="10" fill="url(#accent)"/>
+</svg>
